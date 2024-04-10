@@ -1,0 +1,213 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dfdede;
+}
+html, body {
+    overflow-x: hidden;
+  }
+.hr1{
+    width:50%;
+    color:red;
+}
+
+/*--------------Nav bar styles-------*/
+.navbar {
+    background-color: #000000;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    width: 40%;
+}
+
+.logo img {
+    width: 30%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: #a2a1a1;
+}
+
+li a {
+    text-decoration: none;
+    color: #b6b6b6;
+    font-size: 18px;
+    margin-right: 25px;
+
+}
+
+li .active {
+    color: #fff;
+}
+
+
+li a:hover {
+    color: aliceblue;
+}
+
+/*-----------Buttons styles------------------*/
+
+button {
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 15px;
+}
+.btn1{
+    background-color: rgb(211, 38, 8);
+}
+.btn2{
+    background-color: #666;
+}
+
+button:hover {
+    background-color: #c2c0c0;
+    color:#000000;
+    cursor: pointer;
+}
+
+
+/*------------Hero styles---------------*/
+.hero-container{
+    display:flex;
+    flex-direction: row;
+}
+.left-hero{
+    padding-left:100px;
+    margin-top:100px;
+}
+.left-hero h2{
+    font-size:50px;
+}
+.left-hero p{
+    font-size:20px;
+}
+
+/*------------About Styles---------------*/
+.about-container{
+    display: flex;
+    flex-direction: row;
+    padding:20px 20px 20px;
+    color:white;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.about h1{
+    color: #dddddd;
+}
+.about-img img{
+    border-radius:100%;
+}
+
+
+/*------Service Styles-------*/
+.services{
+    display: flex;
+    flex-direction: row;
+    width:60%;
+}
+.service-container h1{
+    text-align: center;
+}
+.service{ display: flex;
+    flex-direction: column;
+    line-height: 100px;
+    padding-left:0px;
+    justify-content:space-around;
+}
+.s1{
+    width:400px;
+
+}
+
+.services{
+    width:100%;
+    text-align: left;
+    padding:10px 10px 10px 100px;
+}
+.services i{
+    color:red;
+    font-size:25px;
+    background-color: #000000;
+    border-radius: 50%;
+    width:100% 100%;
+    padding:20px 20px 20px 20px;
+}
+
+/***** Ongoing bids styles *****/
+.products-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(images/rate.png);
+}
+.p1, .p2, .p3{
+    margin:20px;
+    padding:20px;
+    width:300px;
+    height:100%;
+    background-image: linear-gradient(rgb(166, 166, 166), rgb(0, 0, 0));
+    color: #fff;
+    border-radius: 20px;
+}
+.products-container i{
+    font-size : 60px;
+    margin-top:250px;
+    cursor: pointer;    
+}
+
+/*------- Testimonials styles -------*/
+.testimonials-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.testimonials{
+    width:500px;
+    height:100%;
+    background-color: #000000;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    padding:10px 10px 10px 10px;
+}
+.testimonials-img{
+    width:50%;
+}
+.testimonials img{
+
+    border-radius: 50px;
+    width:60px;
+
+}
+.testimonials-container i{
+    font-size : 30px;
+    padding:10px 10px 10px 10px;
+    cursor: pointer;    
+}
+.testimonials-container .fa-angle-left, .fa-angle-right{
+    margin-top:120px;
+}
+
+
+/*-----Footer styles----*/
+footer {
+    background-color: #000000;
+    width:100%;
+    height:500px;
+}
