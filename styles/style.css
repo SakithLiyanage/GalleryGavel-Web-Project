@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 body {
     font-family: sans-serif;
     margin: 0;
@@ -92,7 +93,9 @@ button:hover {
     margin-top:100px;
 }
 .left-hero h2{
-    font-size:50px;
+    font-size:60px;
+    font-family: "Whisper", cursive;
+
 }
 .left-hero p{
     font-size:20px;
@@ -215,6 +218,10 @@ footer {
     flex-direction: row;
     color: #ffffff;
     justify-content: center;
+    
+}
+.footer1 p{
+    font-family: "Whisper", cursive;
 }
 .footer1, .footer2, .footer3{
     padding:50px 50px 50px 50px;
