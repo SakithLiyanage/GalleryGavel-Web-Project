@@ -51,7 +51,7 @@ li a {
 
 }
 
-li .active {
+li .active-home {
     color: #fff;
 }
 
@@ -91,6 +91,7 @@ button:hover {
 .left-hero{
     padding-left:100px;
     margin-top:100px;
+    width:80%;
 }
 .left-hero h2{
     font-size:60px;
@@ -100,6 +101,48 @@ button:hover {
 .left-hero p{
     font-size:20px;
 }
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
 
 /*------------About Styles---------------*/
 .about-container{
@@ -158,8 +201,9 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     background-image: url(images/rate.png);
+    margin:10px 50px 10px 50px;
 }
-.p1, .p2, .p3{
+.p1{
     margin:20px;
     padding:20px;
     width:300px;
@@ -168,6 +212,14 @@ button:hover {
     color: #fff;
     border-radius: 20px;
 }
+.products-container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(images/rate.png);
+    margin:10px 50px 10px 50px;
+}
+
 .products-container i{
     font-size : 60px;
     margin-top:250px;
@@ -243,4 +295,58 @@ footer {
     padding:10px 10px 10px 10px;
     margin:0px 0px 0px 0px;
 }
+
+
+
+
+/*----- Auction page ------*/
+.auction-container{
+        display: flex;
+        flex-direction: row;
+        padding:20px 20px 20px;
+        color:white;
+        background-size:cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+}
+.auction-container .auc p a{
+    text-decoration: none;
+    color: rgb(178, 178, 178);
+}
+
+
+.search input[type=search]{
+        float: center;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+        border-radius: 10px;
+        border: #000000 solid 1px;
+}
+.search i{
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: -2px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: #000000 solid 1px;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+}
+.search i:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+.products #sort{
+    float:right;
+    margin-right:80px;
+}
+
+
 
