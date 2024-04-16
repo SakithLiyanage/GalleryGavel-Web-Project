@@ -91,7 +91,7 @@ button:hover {
 .left-hero{
     padding-left:100px;
     margin-top:100px;
-    width:80%;
+    width:120%;
 }
 .left-hero h2{
     font-size:60px;
@@ -101,48 +101,6 @@ button:hover {
 .left-hero p{
     font-size:20px;
 }
-
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 3s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-
-
 
 /*------------About Styles---------------*/
 .about-container{
