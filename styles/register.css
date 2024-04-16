@@ -1,0 +1,169 @@
+img.logo{
+    display: block;
+    margin-left:50px;
+    margin-top: 50px;
+     
+    
+    
+}
+body {
+    background-image:url("../images/img4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position:center;
+    margin:0px;
+    font-family: sans-serif;
+}
+h2.title{
+    text-align: center;
+    margin-top: -50px;
+}
+input[type = text1]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right: 90px;
+
+}
+
+input[type = text2]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:20px;
+    margin-left:20px;
+
+}
+
+input[type = email]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-left:60px;
+    margin-right: 90px;
+
+}
+
+input[type = text3]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-left:25px;
+
+}
+input[type = date]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right: 90px;
+
+}
+
+input[type = text4]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-left:25px;
+
+}
+input[type = gender]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-left:45px;
+    margin-right: 90px;
+
+}
+
+
+input[type = password]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-left:25px;
+    
+
+}input[type = reenterpassword]{
+    width:20%;
+    padding: 8px 12px;
+    margin: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:50px;
+    margin-left:15px;
+    margin-right:170px;
+    
+
+}
+input[type = file]{
+    border: 1px solid #ccc;
+    box-sizing:border-box;
+    margin-top:-20px;
+    margin-left:420px;
+    margin-right: auto;
+
+}
+
+
+
+
+.container{
+    width :800px;
+    height :600px;
+    margin-bottom:30px;
+    margin-left: 525px;
+    margin-top:-120px;
+    padding: 80px;
+    color: rgb(38, 58, 63);
+    border-radius: 15px;
+    background-color: transparent;
+    border: 10px rgb(25, 53, 65);
+    border-style: groove;
+    padding: 3px rgb(29, 25, 51);
+    text-align: center;
+     
+}
+button{
+    background-color:#3b4f6e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: -5px;
+ }
