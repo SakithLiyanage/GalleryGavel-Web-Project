@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dfdede;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.logo {
+    flex: 0 0 auto; /* Prevent logo from growing */
+}
+
+.logo img {
+    width: 90px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.navdiv ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+#profilepic {
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px; 
+}
+
+.btn1 {
+    background-color: #dc1406;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: #c2c0c0;
+    color: #000000;
+    cursor: pointer;
+}
+.btn2 {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    background-color: #868686;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*dashboard stats styels*/
+.welcome-box{
+    padding:20px 20px 20px 20px;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stat{
+    padding:20px 20px 20px 20px;
+    margin:20px 20px 20px 20px;
+    background-color: #989898;
+    border-radius: 20px;
+    text-align: center;
+}
+.content{
+    padding:20px 20px 20px 20px;
+}
+.listings table {
+    line-height: 3;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background-color: #b7b7b7; /* Set background color for odd rows */
+}
+
+
+/*-----Footer styles----*/
+footer {
+    background-color: #000000;
+    border-top: 5px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: center;
+
+}
+
+.footer1 p {
+    font-family: "Whisper", cursive;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+    padding: 50px 50px 50px 50px;
+    width: 35%;
+}
+.footer1 ul{
+    margin-left:0px;
+}
+.footer2 p a {
+    text-decoration: none;
+    color: #aeaeae;
+}
+
+.footer2 p a:hover {
+    color: red;
+}
+
+
+.copyright {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+}
+

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  margin-top: 0;
+}
+
+
+.pname {
+  color: rgb(0, 0, 0);
+  margin: 10%;
+  margin: 10% 10%;
+  font-size: 18px;
+  justify-content: center;
+  box-shadow: 1px 1px 11px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+  width:800px;
+}
+
+.partist {
+  color: rgb(0, 0, 0);
+}
+
+.pdis {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+}
+
+.pfeature {
+  color: rgb(0, 0, 0);
+}
+
+.bidbutton {
+  color: black;
+  background-color: #eaeaea;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.aboutart2 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+}
+
+
+/*--------------About Us Css-------------*/
+
+* {
+  box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
+
+.topic {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.aboutus {
+  color: rgb(0, 0, 0);
+  margin-bottom: 10%;
+  margin-right: 10%;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.history1 {
+  margin-left: 5%;
+  color: rgb(0, 0, 0);
+  margin-bottom: 15%;
+  margin-left: 10%;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.history {
+  color: rgb(0, 0, 0);
+}

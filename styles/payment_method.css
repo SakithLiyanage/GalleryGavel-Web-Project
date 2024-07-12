@@ -1,0 +1,67 @@
+*{
+  font-family: sans-serif;
+}
+body{
+  background-image: url("https://www.pinelabs.com/img/blog/online-payments_mode-banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+    margin: 90px auto ; /* Center the form horizontally with some margin */
+    width: 30%;
+    background-color: lightgray;
+    padding: 50px; /* Add padding for better spacing */
+    border-radius: 10px; /* Add rounded corners for a nicer look */
+  }
+  
+  form h1 {
+    text-align: center; 
+    margin-bottom: 50px;
+  }
+  
+  .form {
+    display: flex; /* Allow labels and inputs to wrap to the next line on smaller screens */
+    margin-bottom: 10px; /* Add space between form elements */
+  }
+  
+  .form label {
+    width: 40%; /* Set width for labels to ensure consistent layout */
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"] {
+    width: 60%; /* Set width for input fields */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Add slightly rounded corners to inputs */
+  }
+  
+  .form input[type="submit"] {
+    background-color: #4CAF50; /* Green color for submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Consistent rounded corners for button */
+    margin-top: 10px; /* Add space above the button */
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #45A049; /* Darker green on hover */
+  }
+
+  .submit{
+    background-color: #45A049;
+    font-size: 1em;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width:180px;
+  }
+  .submit:hover{
+    background-color: black;
+    color: white;
+  }
+  

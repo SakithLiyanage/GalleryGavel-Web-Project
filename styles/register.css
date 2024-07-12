@@ -1,26 +1,27 @@
-img.logo{
-    display: block;
-    margin-left:50px;
-    margin-top: 50px;
-     
-    
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-image:url("../images/img4.jpg");
     background-repeat: no-repeat;
     background-size:cover ;
     background-position:center;
     margin:0px;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-h2.title{
+
+img.logo{
+    display: block;
+    margin-left:50px;
+    margin-top: 50px;   
+}
+
+h1.title{
     text-align: center;
     margin-top: -50px;
 }
-input[type = text1]{
+input[type = "text"], [type = "email"], [type = date], [type = password]{
     width:20%;
-    padding: 8px 12px;
+    padding: 10px 10px 10px 10px;
     margin: 6px;
     display: inline-block;
     border: 1px solid #ccc;
@@ -28,69 +29,11 @@ input[type = text1]{
     margin-top:20px;
     margin-left:20px;
     margin-right: 90px;
+    border-radius:10px;
 
 }
 
-input[type = text2]{
-    width:20%;
-    padding: 8px 12px;
-    margin: 6px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top:20px;
-    margin-left:20px;
 
-}
-
-input[type = email]{
-    width:20%;
-    padding: 8px 12px;
-    margin: 6px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top:50px;
-    margin-left:60px;
-    margin-right: 90px;
-
-}
-
-input[type = text3]{
-    width:20%;
-    padding: 8px 12px;
-    margin: 6px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top:50px;
-    margin-left:25px;
-
-}
-input[type = date]{
-    width:20%;
-    padding: 8px 12px;
-    margin: 6px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top:50px;
-    margin-left:5px;
-    margin-right: 90px;
-
-}
-
-input[type = text4]{
-    width:20%;
-    padding: 8px 12px;
-    margin: 6px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top:50px;
-    margin-left:25px;
-
-}
 input[type = gender]{
     width:20%;
     padding: 8px 12px;
@@ -105,53 +48,18 @@ input[type = gender]{
 }
 
 
-input[type = password]{
-    width:20%;
-    padding: 8px 12px;
-    margin: 6px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top:50px;
-    margin-left:25px;
-    
-
-}input[type = reenterpassword]{
-    width:20%;
-    padding: 8px 12px;
-    margin: 6px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top:50px;
-    margin-left:15px;
-    margin-right:170px;
-    
-
-}
-input[type = file]{
-    border: 1px solid #ccc;
-    box-sizing:border-box;
-    margin-top:-20px;
-    margin-left:420px;
-    margin-right: auto;
-
-}
-
-
-
 
 .container{
     width :800px;
-    height :600px;
+    height :450px;
     margin-bottom:30px;
     margin-left: 525px;
     margin-top:-120px;
     padding: 80px;
     color: rgb(38, 58, 63);
     border-radius: 15px;
-    background-color: transparent;
-    border: 10px rgb(25, 53, 65);
+    background-color: #cccccc58;
+    border: 3px rgb(25, 53, 65);
     border-style: groove;
     padding: 3px rgb(29, 25, 51);
     text-align: center;
@@ -164,6 +72,11 @@ button{
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 30%;
     margin-bottom: -5px;
+    border-radius: 10px;
+ }
+ button:hover{
+    background-color: #565656;
+
  }
