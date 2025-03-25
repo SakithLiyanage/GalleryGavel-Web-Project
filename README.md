@@ -49,3 +49,6 @@ Key Features:
 - Admin Panel:
 
     Admins can oversee the entire platform, managing users, artwork listings, bids, and transactions.
+
+  ![WhatsApp Image 2025-03-25 at 19 27 29_836ec164](https://github.com/user-attachments/assets/7c9264e3-b7fc-4366-adcc-9a8e895484c4)
+
